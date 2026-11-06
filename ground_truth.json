@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "n_stays": 3000,
+  "n_teams": 36,
+  "sigma_team_log_rate": 0.3,
+  "beta_severity": 0.05,
+  "beta_prior_abnormal": 0.3,
+  "beta_first_day": 0.2,
+  "beta_weekend": -0.12,
+  "mgmt_gain_if_abnormal_draw": 0.9,
+  "mgmt_gain_if_normal_draw": 0.03,
+  "hb_drop_per_draw_g_dl": 0.06,
+  "mortality_effect_of_draws": 0.0,
+  "note": "SYNTHETIC. Planted values to validate that your methods recover them."
+}
